@@ -1,0 +1,57 @@
+<!Doctype HTML5>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+			<div class="header">
+				<img src="logo-removebg-preview.png" alt="logo"/>
+				<ul>
+					<li><a href="file:///C:/Users/Youcode/Desktop/brief-formulaire/index.html">ACCEUIL</a></li>
+					<li><a href="#">A-PROPOS</a></li>
+					<li><a href="#">CONTACTEZ-NOUS</a></li>
+				</ul>
+			</div>
+		<div class="contenue">
+			<div class="text">
+				<p >
+					VOUZ AVEZ BESOIN D'ACHTER,LOUER DES MAISON R +2,VILLA OU BIEN DES STUDIO BIENVENUE CHEZ TNIZZ-IMMOBLIER VOUS TROUVEREZ  DES IIMMOBILIER DE LUX AVEC DES BONS PRIX.
+				</p>
+			</div>
+			<div class="formular">
+				<form>
+					<div class="search">
+					<input type="text" placeholder="recherche par ville" required class="inp" >
+					 <button type="submit"><i class="fa fa-search"></i></button>
+					 </div>
+					<select name="type de propriété" id="propriété-select" required >
+						<option value="">--Type de proprité--</option>
+						<option value="VILLA">VILLA</option>
+						<option value="APPARTEMENT">APPARTEMENT</option>
+						<option value="MAISON-R+2">MAISON-R+2</option>
+						<option value="MAISON-R+1">MAISON-R+1</option>
+						<option value="STUDIO">STUDIO</option>
+						<option value="TERRAIN">TERRAIN</option>
+					</select>
+					<select name="N° DES CHAMBRES" id="CHAMBRE-select">
+						<option value="">--N°DES CHAMBRES--</option>
+						<option value="2 CHAMBRE">2 CHAMBRE</option>
+						<option value="3 CHAMBRE">3 CHAMBRE</option>
+						<option value="4 CHAMBRE">4 CHAMBRE</option>
+					</select>
+					<div class="prix">
+						<input type="text" placeholder="prix min" class="prix-min" required>
+						<input type="text" placeholder="prix max" class="prix-max" required>
+					</div>
+					<div class="inc">
+						<label for="inclus" class="incl">inclure les propriétés vendues</label>
+						<input type="checkbox" id="inclus" name="inclus" checked>
+					</div>
+				</form>	
+			</div>
+		</div>
+	</body>
+</html>
